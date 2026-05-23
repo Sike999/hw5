@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800');
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+#root.dark {
+  background-color: #060213;
+  color:#FFF
+}
+#root.light {
+  color:#000;
+  background-color: #FFF
+}
+body {
+  margin: 0;
+}
